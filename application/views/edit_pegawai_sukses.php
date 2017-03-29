@@ -1,6 +1,10 @@
 <?php 
+//redirect('pegawai','refresh');
+echo '<script language="javascript">';
+echo 'alert("Edit Data Berhasil!")';
+echo '</script>';
+ ?>
 
-	echo "Sukses Update Data";
-	echo "</br>";
-	echo anchor('pegawai/update/'.$this->uri->segment(3), 'Update Data Lagi');
+ <?php 
+redirect('pegawai','refresh');
  ?>
